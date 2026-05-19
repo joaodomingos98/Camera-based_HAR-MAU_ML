@@ -1,0 +1,7 @@
+{
+    "BATCH_SIZE": 8,
+    "NR_EPOCHS": 30,
+    "LEARNING_RATE": 0.001,
+    "CLIP_LEN": 32,
+    "MODEL": "S3D (Kinetics400 Pre-trained)"
+}
