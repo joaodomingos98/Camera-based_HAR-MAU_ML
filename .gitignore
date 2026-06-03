@@ -168,6 +168,9 @@ venv.bak/
 /site
 /kth_split
 
+# data collections directiories
+/Data_Collection
+
 # mypy
 .mypy_cache/
 .dmypy.json
