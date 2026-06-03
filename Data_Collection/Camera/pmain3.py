@@ -52,7 +52,7 @@ def run(on_frame_callback, status_callback, stop_event, fps_callback):
     # "root" is the username
     # "YoloTracking" is the password
     # /axis-media/media.amp = axis fixed path
-    IP = "192.168.0.90"
+    IP = "169.254.41.208"
     CAM_URL = f"rtsp://root:YoloTracking@{IP}/axis-media/media.amp"
 
     # load the COCO classes + save in an array

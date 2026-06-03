@@ -24,7 +24,7 @@ if str(PROJECT_ROOT) not in sys.path:
 BASE_DIR = Path(__file__).resolve().parent
 ASSETS_DIR = BASE_DIR / "symbols"
 
-from ML.Preprocessing.synchronizeData import synchronize_and_merge
+from synchronizeData import synchronize_and_merge
 
 
 class ToolTip:
