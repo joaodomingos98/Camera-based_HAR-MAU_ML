@@ -1,0 +1,14 @@
+Overall Accuracy: 97.92%
+
+              precision    recall  f1-score   support
+
+      boxing       1.00      1.00      1.00        79
+handclapping       0.94      1.00      0.97        80
+  handwaving       1.00      0.94      0.97        80
+     jogging       0.94      1.00      0.97        80
+     running       1.00      0.94      0.97        80
+     walking       1.00      1.00      1.00        80
+
+    accuracy                           0.98       479
+   macro avg       0.98      0.98      0.98       479
+weighted avg       0.98      0.98      0.98       479

@@ -1,0 +1,21 @@
+{
+    "SEED": 0,
+    "TEST_SPLIT": 0.2,
+    "VAL_SPLIT": 0.2,
+    "BATCH_SIZE": 8,
+    "NR_EPOCHS": 30,
+    "CLIP_LEN": 64,
+    "OPTIMIZER": "SGD",
+    "LEARNING_RATE": 0.01,
+    "MOMENTUM": 0.9,
+    "WEIGHT_DECAY": 1e-05,
+    "LR_STEP_SIZE": 10,
+    "LR_GAMMA": 0.1,
+    "FREEZE": true,
+    "UNFREEZE_EPOCH": 15,
+    "USE_AMP": true,
+    "DETERMINISTIC": false,
+    "NUM_WORKERS": 8,
+    "PREFETCH_FACTOR": 2,
+    "MODEL": "S3D (Kinetics400 Pre-trained)"
+}
