@@ -54,9 +54,9 @@ The models were evaluated based on their accuracy, parameter count, GFLOPS, and 
 *\*Inference time of one forward pass of a single sample using an Nvidia A100.*
 
 ### Takeaways
-* **The Winner (S3D):** The S3D model represents the optimal sweet spot for real-time video surveillance. It achieved the highest accuracy (96.5%) with a highly manageable computational cost (18.2 GFLOPS / 7.29 ms inference).
-* **The Ultra-Lightweight Option (EfficientNet + LSTM):** While it struggled slightly with fine-grained spatial-temporal dependencies (often confusing jogging with running), its incredibly low 6.41 GFLOPS makes it the only viable choice for extreme power-constrained edge deployments.
-* **The Heavyweight (MViT v2):** Despite strong accuracy, the Transformer-based model requires 64.46 GFLOPS (10x that of the CNN-LSTM). This massive architectural footprint makes it prone to thermal throttling and fundamentally incompatible with low-latency edge deployment.
+* **Best performance (S3D):** The S3D model represents the optimal sweet spot for real-time video surveillance. It achieved the highest accuracy (96.5%) with a highly manageable computational cost (18.2 GFLOPS / 7.29 ms inference).
+* **Lightweight Option (EfficientNet + LSTM):** While it struggled slightly with fine-grained spatial-temporal dependencies (often confusing jogging with running), its incredibly low 6.41 GFLOPS makes it the only viable choice for extreme power-constrained edge deployments.
+* **Heavyweight Option (MViT v2):** Despite strong accuracy, the Transformer-based model requires 64.46 GFLOPS (10x that of the CNN-LSTM). This massive architectural footprint makes it prone to thermal throttling and fundamentally incompatible with low-latency edge deployment.
 
 ---
 
