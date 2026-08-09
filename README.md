@@ -3,8 +3,6 @@
 
 A research project from the Dept. of Computer Science & Media Technology and Vertically Integrated Projects Research Lab at Malmö University evaluating the feasibility of deploying deep learning architectures for real-time human activity recognition on edge devices.
 
-## 📌 Overview
-The primary goal of this project is to classify atomic human activities (walking, running, jogging, boxing, handclapping, and hand waving) from RGB video inputs. Given that this model is intended for surveillance scenarios where computational power is scarce (e.g., Raspberry Pi, smartphones), the focus is heavily weighted toward **real-time feasibility, low latency, and computational efficiency (GFLOPS)**.
 ## Project Overview
 The primary objective of this project is to classify atomic human activities (e.g., walking, standing, sitting, running, boxing, hand-clapping) from RGB video inputs using deep learning computer vision architectures. 
 
