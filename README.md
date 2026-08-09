@@ -3,6 +3,8 @@
 
 A research project from the Dept. of Computer Science & Media Technology and Vertically Integrated Projects Research Lab at Malmö University evaluating the feasibility of deploying deep learning architectures for real-time human activity recognition on edge devices.
 
+**[📄 Full University Paper Here](https://github.com/joaodomingos98/Camera-based_HAR-MAU_ML/blob/main/Report%20-%20Camera-based%20Human%20Activity%20Recognition.pdf)**
+
 ## Project Overview
 The primary objective of this project is to classify atomic human activities (e.g., walking, standing, sitting, running, boxing, hand-clapping) from RGB video inputs using deep learning computer vision architectures. 
 
